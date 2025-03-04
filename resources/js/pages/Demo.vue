@@ -1,6 +1,7 @@
 <script setup>
 import AlertMessage from '@/components/custom/AlertMessage.vue';
 import Weather from '@/components/custom/Weather.vue';
+import TravelLocation from '@/components/custom/TravelLocation.vue';
 </script>
 
 <template>
@@ -16,6 +17,15 @@ import Weather from '@/components/custom/Weather.vue';
   <Weather name="rajshahi" condition="Stormy" temperature="28" windSpeed="15" humidity="60" />
   <Weather name="Kishoregonj" condition="Snowy" temperature="28" windSpeed="15" humidity="60" />
 
+</div>
+<div>
+  <p>
+    <TravelLocation name="Dhaka" price="100" title="Dhaka Tour" length="5" image="https://unsplash.com/photos/a-road-in-the-middle-of-a-desert-with-mountains-in-the-background-bTjUmra80rs" />
+
+  </p>
+  <p>
+    <TravelLocation name="sirajgonj" price="100" title="sirajgonj Tour" length="5" image="https://unsplash.com/photos/a-forest-filled-with-lots-of-tall-trees-Cwd-Qca1fAM" />
+  </p>
 </div>
 </template>
 
