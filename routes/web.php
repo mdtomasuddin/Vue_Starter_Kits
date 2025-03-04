@@ -17,3 +17,5 @@ require __DIR__.'/auth.php';
 
 
 Route::get('/demo',[DemoController::class,'index'])->name('demo.index');
+Route::get('/person',[DemoController::class,'person'])->name('person');
+Route::patch('save',[DemoController::class,'saveForm'])->name('form.save');
